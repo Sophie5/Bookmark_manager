@@ -1,8 +1,9 @@
+ENV["RACK_ENV"] ||= 'development'
 require 'sinatra/base'
 require './models/link'
 
 class Bookmarker < Sinatra::Base
-attr_reader :links
+
  get '/links' do
    erb :links
 end
