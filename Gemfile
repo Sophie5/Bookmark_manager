@@ -1,6 +1,6 @@
 source "https://rubygems.org/"
 
-
+ruby '2.3.1'
 group :test do
   gem 'database_cleaner'
 end
@@ -16,4 +16,4 @@ gem 'rspec-sinatra'
 gem 'shotgun'
 gem 'dm-transactions'
 gem 'rake'
-ruby '2.3.1'
+gem 'pg'
